@@ -1,0 +1,7 @@
+#Fri Apr 06 21:51:30 ICT 2018
+base.0=F\:\\code\\MoleFromHole\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_69bb484e12646ba1674a1e40b44e690308fbdb8d
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=F\:\\code\\MoleFromHole\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_1b82cce0cde872cfea9f9f5136df05d753171d33\\classes.dex
+base.1=F\:\\code\\MoleFromHole\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_1b82cce0cde872cfea9f9f5136df05d753171d33
+file.0=F\:\\code\\MoleFromHole\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_69bb484e12646ba1674a1e40b44e690308fbdb8d\\classes.dex

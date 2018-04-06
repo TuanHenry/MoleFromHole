@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Joker\.android\build-cache\484b34addde6c4bf0aa48d12675234946098801e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="F:\code\MoleFromHole\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2e161832784d6b14aa4d8335f23b82b2da6b89a4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Joker\.android\build-cache\56ab93d3a194919ab1d968676c82fa709c77be22\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="F:\code\MoleFromHole\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d6f93b320b075385852c1f8bb4a3118efbd66d9a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Joker\.android\build-cache\ed75a05bb430d53ac4f78b8fd816e29f1d99faeb\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="F:\code\MoleFromHole\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c769e76a2b86f4249b51ded1f1f2a298be52ff1f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Joker\.android\build-cache\9fc951f158deaac182eee5c410b5766a3143db93\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="F:\code\MoleFromHole\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_be8b39630b776d3fd114722326bdd06d3c223218\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\code\MoleFromHole\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="F:\code\MoleFromHole\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_69bb484e12646ba1674a1e40b44e690308fbdb8d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Joker\.android\build-cache\2a6e0b490f09688081866bba07d9f4540a9da9cb\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="F:\code\MoleFromHole\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7c08d71509cb05bbe9f2a79adb41e2ce50161fbd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Joker\.android\build-cache\b6ad62dce780310434a66d8dcd8925f69342f32a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="F:\code\MoleFromHole\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d9bed4a2c6accd74a2e6d3c6106ae6242f3c7c37\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Joker\.android\build-cache\d8d780ade7f48b3aa1ea089b4d398dc46100c790\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="F:\code\MoleFromHole\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c61e45b60fea76d526881746672ceca52decf483\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Androidv2\SDK\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="F:\code\MoleFromHole\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-26.0.0-alpha1_aa69a648daed49f7a1d017098878dd7335f9786a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\code\MoleFromHole\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="6ecf171e8c8955336dcf359ab3be3c69dba8bf0d">
+        <dex dex="F:\code\MoleFromHole\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_1b82cce0cde872cfea9f9f5136df05d753171d33\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Joker\.android\build-cache\e3b9b0b0e6f7bba4a21a4ff5c37e559c977512ab\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="F:\code\MoleFromHole\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9ec32904825aad374d3fc22f0e676c4ea4d8919d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Joker\.android\build-cache\82dfe9c077e3346861226435018d6460bf0ffb71\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="F:\code\MoleFromHole\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bfd89bf3fee791888d5f74b3a2db2afb66910593\classes.dex" />
+    </item>
+
+</items>

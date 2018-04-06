@@ -1,0 +1,87 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\code\MoleFromHole\app\src\main\AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from F:\code\MoleFromHole\app\src\main\AndroidManifest.xml:3:5-43
+		INJECTED from F:\code\MoleFromHole\app\src\main\AndroidManifest.xml
+		INJECTED from F:\code\MoleFromHole\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from F:\code\MoleFromHole\app\src\main\AndroidManifest.xml
+		INJECTED from F:\code\MoleFromHole\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\code\MoleFromHole\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from F:\code\MoleFromHole\app\src\main\AndroidManifest.xml
+		INJECTED from F:\code\MoleFromHole\app\src\main\AndroidManifest.xml
+application
+ADDED from F:\code\MoleFromHole\app\src\main\AndroidManifest.xml:5:5-19:19
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Joker\.android\build-cache\484b34addde6c4bf0aa48d12675234946098801e\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Joker\.android\build-cache\56ab93d3a194919ab1d968676c82fa709c77be22\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Joker\.android\build-cache\9fc951f158deaac182eee5c410b5766a3143db93\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Joker\.android\build-cache\2a6e0b490f09688081866bba07d9f4540a9da9cb\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Joker\.android\build-cache\ed75a05bb430d53ac4f78b8fd816e29f1d99faeb\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Joker\.android\build-cache\d8d780ade7f48b3aa1ea089b4d398dc46100c790\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Joker\.android\build-cache\e3b9b0b0e6f7bba4a21a4ff5c37e559c977512ab\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Joker\.android\build-cache\82dfe9c077e3346861226435018d6460bf0ffb71\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Joker\.android\build-cache\b6ad62dce780310434a66d8dcd8925f69342f32a\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Joker\.android\build-cache\cf6dd5c88143a5944e9af78d9c308ffea7273e32\output\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from F:\code\MoleFromHole\app\src\main\AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from F:\code\MoleFromHole\app\src\main\AndroidManifest.xml:10:9-35
+	android:roundIcon
+		ADDED from F:\code\MoleFromHole\app\src\main\AndroidManifest.xml:9:9-54
+	android:allowBackup
+		ADDED from F:\code\MoleFromHole\app\src\main\AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from F:\code\MoleFromHole\app\src\main\AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from F:\code\MoleFromHole\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.joker.henry.molefromhole.MainActivity
+ADDED from F:\code\MoleFromHole\app\src\main\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from F:\code\MoleFromHole\app\src\main\AndroidManifest.xml:12:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from F:\code\MoleFromHole\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from F:\code\MoleFromHole\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from F:\code\MoleFromHole\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\code\MoleFromHole\app\src\main\AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from F:\code\MoleFromHole\app\src\main\AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from F:\code\MoleFromHole\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Joker\.android\build-cache\484b34addde6c4bf0aa48d12675234946098801e\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Joker\.android\build-cache\56ab93d3a194919ab1d968676c82fa709c77be22\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Joker\.android\build-cache\9fc951f158deaac182eee5c410b5766a3143db93\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Joker\.android\build-cache\2a6e0b490f09688081866bba07d9f4540a9da9cb\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Joker\.android\build-cache\ed75a05bb430d53ac4f78b8fd816e29f1d99faeb\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Joker\.android\build-cache\d8d780ade7f48b3aa1ea089b4d398dc46100c790\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Joker\.android\build-cache\e3b9b0b0e6f7bba4a21a4ff5c37e559c977512ab\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Joker\.android\build-cache\82dfe9c077e3346861226435018d6460bf0ffb71\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Joker\.android\build-cache\b6ad62dce780310434a66d8dcd8925f69342f32a\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Joker\.android\build-cache\cf6dd5c88143a5944e9af78d9c308ffea7273e32\output\AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Joker\.android\build-cache\484b34addde6c4bf0aa48d12675234946098801e\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from F:\code\MoleFromHole\app\src\main\AndroidManifest.xml
+		INJECTED from F:\code\MoleFromHole\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\code\MoleFromHole\app\src\main\AndroidManifest.xml
+		INJECTED from F:\code\MoleFromHole\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Joker\.android\build-cache\484b34addde6c4bf0aa48d12675234946098801e\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Joker\.android\build-cache\56ab93d3a194919ab1d968676c82fa709c77be22\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Joker\.android\build-cache\9fc951f158deaac182eee5c410b5766a3143db93\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Joker\.android\build-cache\2a6e0b490f09688081866bba07d9f4540a9da9cb\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Joker\.android\build-cache\ed75a05bb430d53ac4f78b8fd816e29f1d99faeb\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Joker\.android\build-cache\d8d780ade7f48b3aa1ea089b4d398dc46100c790\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Joker\.android\build-cache\e3b9b0b0e6f7bba4a21a4ff5c37e559c977512ab\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Joker\.android\build-cache\82dfe9c077e3346861226435018d6460bf0ffb71\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Joker\.android\build-cache\b6ad62dce780310434a66d8dcd8925f69342f32a\output\AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Joker\.android\build-cache\484b34addde6c4bf0aa48d12675234946098801e\output\AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Joker\.android\build-cache\484b34addde6c4bf0aa48d12675234946098801e\output\AndroidManifest.xml:26:9-47
