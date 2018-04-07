@@ -8,12 +8,14 @@
 
     <GridView
         android:horizontalSpacing="0dp"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/grid_map"
+        android:layout_width="300dp"
+        android:layout_height="240dp"
+        android:id="@+id/grid"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
         android:layout_marginRight="42dp"
-        android:layout_marginEnd="42dp">
+        android:layout_marginEnd="42dp"></GridView>
 
-    </GridView>
 
 </LinearLayout>
