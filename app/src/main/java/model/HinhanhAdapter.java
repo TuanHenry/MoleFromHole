@@ -20,7 +20,7 @@ public class HinhanhAdapter extends BaseAdapter {
 
     private Context context;
     private  int layout;
-    private List<HinhAnh> hinhAnhList;
+    private List<Hole> hinhAnhList;
     public Context getContext() {
         return context;
     }
@@ -37,17 +37,17 @@ public class HinhanhAdapter extends BaseAdapter {
         this.layout = layout;
     }
 
-    public List<HinhAnh> getHinhAnhList() {
+    public List<Hole> getHinhAnhList() {
         return hinhAnhList;
     }
 
-    public void setHinhAnhList(List<HinhAnh> hinhAnhList) {
+    public void setHinhAnhList(List<Hole> hinhAnhList) {
         this.hinhAnhList = hinhAnhList;
     }
 
 
 
-    public HinhanhAdapter(Context context, int layout, List<HinhAnh> hinhAnhList) {
+    public HinhanhAdapter(Context context, int layout, List<Hole> hinhAnhList) {
         this.context = context;
         this.layout = layout;
         this.hinhAnhList = hinhAnhList;
@@ -85,8 +85,8 @@ public class HinhanhAdapter extends BaseAdapter {
         } else {
             holder= (ViewHolder) convertView.getTag();
         }
-        HinhAnh hinhAnh=hinhAnhList.get(position);
-        holder.imgHinh.setImageResource(hinhAnh.getHinh());
+        Hole hole=hinhAnhList.get(position);
+        holder.imgHinh.setImageResource(hole.getImgHole());
         return convertView;
     }
 }

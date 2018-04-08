@@ -1,6 +1,5 @@
 package model;
 
-import android.widget.ImageView;
 import android.widget.RadioButton;
 
 /**
@@ -8,7 +7,15 @@ import android.widget.RadioButton;
  */
 
 public class Hole {
-    private ImageView imgHole;
+    public Hole(int imgHole) {
+        this.imgHole = imgHole;
+    }
+
+    public Hole(boolean isSoil) {
+        this.isSoil = isSoil;
+    }
+
+    private int imgHole;
     private int mSumTimer,mInterval;
     private int mWidth,mHeight;
     public RadioButton isMole;
@@ -17,7 +24,7 @@ public class Hole {
     public Hole() {
     }
 
-    public Hole(ImageView imgHole, int mSumTimer, int mInterval, int mWidth, int mHeight, RadioButton isMole) {
+    public Hole(int imgHole, int mSumTimer, int mInterval, int mWidth, int mHeight, RadioButton isMole) {
         this.imgHole = imgHole;
         this.mSumTimer = mSumTimer;
         this.mInterval = mInterval;
@@ -26,11 +33,11 @@ public class Hole {
         this.isMole = isMole;
     }
 
-    public ImageView getImgHole() {
+    public int getImgHole() {
         return imgHole;
     }
 
-    public void setImgHole(ImageView imgHole) {
+    public void setImgHole(int imgHole) {
         this.imgHole = imgHole;
     }
 

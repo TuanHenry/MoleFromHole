@@ -4,25 +4,23 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.GridView;
 
-import java.util.ArrayList;
-
-import model.HinhanhAdapter;
 import model.GridSoil;
-import model.HinhAnh;
+import model.HinhanhAdapter;
+import model.Hole;
 
 public class MainActivity extends AppCompatActivity {
 
     GridView grvBan;
-    GridSoil gridSoil=new GridSoil(10, 8);
 
-    ArrayList<HinhAnh> listHinhAnh;
 
+    /*ArrayList<Hole> listhole;*/
+    GridSoil gridSoil=new GridSoil( 10, 8 );
     HinhanhAdapter adapter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        listHinhAnh =new ArrayList<>();
+       /* listhole =new ArrayList<>();*/
 
 
         grvBan=(GridView) findViewById(R.id.grid);
@@ -41,17 +39,17 @@ public class MainActivity extends AppCompatActivity {
 
         for(int i=0; i< gridSoil.getmHeightOfLand()*gridSoil.getmWidthOfLand(); i++){
 
-            if(gridSoil.getArraySoil(i)==1)
+            if(gridSoil.ishole(i)==true)
             {
-                listHinhAnh.add(new HinhAnh(R.drawable.chuotlone));
+                gridSoil.listhole.set(i,  new Hole(R.drawable.chuotlone));
             }
             else
-                listHinhAnh.add(new HinhAnh(R.drawable.lo));
+                gridSoil.listhole.set(i,  new Hole(R.drawable.lo));
 
         }
 
 
-        adapter=new HinhanhAdapter(this, R.layout.hinh_anh,listHinhAnh );
+        adapter=new HinhanhAdapter(this, R.layout.hinh_anh,gridSoil.listhole );
         grvBan.setAdapter(adapter);
     }
 }

@@ -1,22 +1,29 @@
 package model;
 
 
+import java.util.ArrayList;
 import java.util.Random;
-
 /**
  * Created by Henry on 4/6/2018.
  */
 
 public class GridSoil {
-    private int arraySoil[] = new int[150];// trống 1: đất có hố quét mảng truyền vào để tạo lưới ô đất
-
-    public int getArraySoil(int x) {
-        return arraySoil[x];
+    public boolean ishole(int x) {
+        return listhole.get(x).isSoil ;
     }
 
-    public void setArraySoil(int index, int number) {
-        this.arraySoil[index] = number;
+    public void setishole(int index, boolean x) {
+        this.listhole.get(index).isSoil=x ;
     }
+
+
+
+
+
+
+    public static ArrayList<Hole> listhole=new  ArrayList<>();;// true co ho, false k co ho
+
+
 
     public GridSoil(int mWidthOfLand, int mHeightOfLand) {
         this.mWidthOfLand = mWidthOfLand;
@@ -53,10 +60,10 @@ public class GridSoil {
     public  void Init(int holes)
     {
         int s=0;
-        for(int i=1; i< getmHeightOfLand()*getmWidthOfLand(); i++){
+        for(int i=0; i< getmHeightOfLand()*getmWidthOfLand(); i++){
 
 
-            this.arraySoil[i] = 0;
+            this.listhole.add(new Hole(false));
 
         }
         Random rd = new Random();
@@ -66,9 +73,9 @@ public class GridSoil {
         {
             x = rd.nextInt(getmHeightOfLand()*getmWidthOfLand());
 
-            if (arraySoil[x] == 0)
+            if (this.listhole.get(x).isSoil == false)
             {
-                arraySoil[x]=1;
+                this.listhole.get(x).isSoil=true;
                 dem++;
 
             }
